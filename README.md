@@ -3,13 +3,13 @@
 
 
 <div style='align=center; margin-top: 25px; margin-bottom: 25px;'>
-	<img src="">
+	<img src="https://media0.giphy.com/media/qeRoreutkRK8WeD7nA/giphy.gif?cid=790b7611c3dec93b34ce82b5dcaf7b30fa735e928545085a&rid=giphy.gif&ct=g">
 </div>
 
 
 ## Instalación
 ```
- git clone http://github.com/micuenta/mirepo.git
+ git clone https://github.com/JoelSchachtel/Rafatec.git
  cd nameRepo
  npm install
  npm start
