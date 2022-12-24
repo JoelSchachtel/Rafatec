@@ -1,0 +1,73 @@
+/* -------- NAVBAR START -------- */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.navbar__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__item {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+.navbar__item a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    transition: 0.3s ease;
+}
+
+.navbar__item a:hover,
+.navbar__item a.active {
+    color: #551A8B;
+}
+
+.ic {
+    color: black;
+    font-size: 25px;
+    transition: .3s ease;
+}
+
+.ic:hover {
+    font-size: 25px;
+    color: #551A8B;
+}
+
+.logo {
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    width: 20% !important;
+    margin: 0;
+    padding: 0;
+}
+
+.loguisimos {
+    cursor: pointer !important;
+}
+
+/* -------- NAVBAR END -------- */
+
+/* -------- CART WIDGET -------- */
+
+/* -------- CART WIDGET END -------- */

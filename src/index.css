@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+
+:root {
+    --color_violeta: rgb(176, 64, 199);
+    --color_naranja: #FF6D00;
+    --color_celeste: #4cd7e9;
+    --color_back1: rgb(240, 240, 240);
+    --altura_main: calc(100vh - 142px - 75px);                /* 142px es la altura del navbar - 75px es la altura del footer - */
+    --borde_cards: rgb(189, 189, 189);
+    --color_navbar: #240046;
+    --color_precios: rgb(100, 0, 158);
+    --color-rosa: rgba(255, 73, 124, 1);
+    --hover_violeta: rgb(219, 10, 191);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+body {
+    /* background: linear-gradient(90deg, rgba(149,0,255,1) 0%, rgba(241,73,255,1) 50%, rgba(0,212,255,1) 100%); */
+    background: white;
+    /* background-color: var(--color_back1); */
+}
